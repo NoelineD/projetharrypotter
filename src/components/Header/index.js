@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     
-    < div className="HeroContainer">
+    < div className="HeaderContainer">
 
   
     <div class="HPTitle">HARRY POTTER</div>

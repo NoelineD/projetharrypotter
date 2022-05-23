@@ -1,34 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@media screen and (min-width:575px) {
 
-.HPTitle{
+    .Herocontainer{
+        display: flex;
+        text-align:center;
+        padding:40px;
+        justify-content: center;
+        
+        }
+        
+        .herotext{
+            display:inline-flex;
+            color:white;
+            font-size: 15px;
+            font-family: serif;
+            text-shadow: #C08E5A 1px 0 20px;
+}
+}
+@media screen and (min-width:1024px) {
 
-    color:white;
-    display: inline-flex;
-    font-size:70px;
-    padding:20px;
-    margin-bottom:100px;
-    font-family: 'Metal Mania', cursive;
-} 
+.Herocontainer{
+display: flex;
+text-align:center;
+padding:40px;
+justify-content: center;
 
-.text{
+}
+
+.herotext{
     display:inline-flex;
     color:white;
-    font-size: 25px;
-    font-family: 'Metal Mania', cursive;
+    font-size: 20px;
+    font-family: serif;
+    text-shadow: #C08E5A 1px 0 20px;
 }
-
-.HeroContainer{
-    width: 100%;
-    height: 500px;
-    /* background-color: red; */
-    background-image: url("../../assets/7011backdropscale1280xauto.webp");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:flex-start;
-
 }
-
-

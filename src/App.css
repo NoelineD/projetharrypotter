@@ -2,7 +2,7 @@
     background-color:#0F3B57 ;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:575px) {
     span{
         display:flex;
         justify-content:center;
@@ -31,10 +31,6 @@
 
 }
 
-@media screen and (min-width:768px) {
-
-
-}
 
 
 @media screen and (min-width:1024px) {

@@ -2,7 +2,7 @@
 
 /*portable*/
 @media screen and (min-width:576px) {
-  .HeroContainer{
+  .HeaderContainer{
     width: 100%;
     height: 450px;
     /* background-color: red; */
@@ -61,7 +61,7 @@
     text-decoration: none;
   }
 
-  .HeroContainer{
+  .HeaderContainer{
     width: 100%;
     height: 400px;
     /* background-color: red; */
@@ -119,7 +119,7 @@
           text-shadow: #C08E5A 1px 0 20px;
       }
       
-      .HeroContainer{
+      .HeaderContainer{
           width: 100%;
           height: 550px;
           /* background-color: red; */

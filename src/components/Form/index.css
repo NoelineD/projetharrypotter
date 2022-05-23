@@ -1,0 +1,260 @@
+@media screen and (min-width:576px) {
+    #title-Tag-Line {
+        font-size: 20px;
+      }
+    
+      .Formcontainer{
+        height:550px;
+        display:flex;
+        margin-bottom:250px;
+      }
+      
+      /* form animation starts */
+      .form {
+        background: rgb(207, 201, 153);
+        box-shadow: 0 30px 60px 0 rgba(252, 252, 252, 0.4);
+        border-radius: 5px;
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        border-top: 5px solid #0F3B57;
+      /*   z-index: 1; */
+        animation: bounce 1.5s infinite;
+      }
+      ::-webkit-input-placeholder {
+        font-size: 1.1em;
+      }
+      
+      .title_form{
+        display: block;
+        font-family: sans-serif;
+        margin: 15px auto 5px;
+        width: 250px;
+      }
+      
+      .pageTitle{
+        font-size: 1.8em;
+        font-weight: bold;
+        color:#797171;
+      }
+      .secondaryTitle{
+        color: #797171;
+      }
+      
+      .name {
+        background-color: #dddcb9;
+        color: white;
+        height:1.5em;
+      }
+      .name:hover {
+        border-bottom: 5px solid #0F3B57;
+        height: 30px;
+        width: 380px;
+        transition: ease 0.5s;
+      }
+    
+      .house {
+        background-color: #dddcb9;
+        color: white;
+        height:1.5em;
+      }
+      .house:hover {
+        border-bottom: 5px solid #0F3B57;
+        height: 30px;
+        width: 380px;
+        transition: ease 0.5s;
+      }
+      
+      .email {
+        background-color: #dddcb9;
+        height: 1.5em;
+      }
+      
+      .email:hover {
+        border-bottom: 5px solid #0F3B57;
+        height: 30px;
+        width: 380px;
+        transition: ease 0.5s;
+      }
+      
+      .message {
+        background-color: #dddcb9;
+        overflow: hidden;
+        height: 8rem;
+      }
+      
+      .message:hover {
+        border-bottom: 5px solid #0F3B57;
+        height: 12em;
+        width: 380px;
+        transition: ease 0.5s;
+      }
+      
+      .formEntry {
+        display: block;
+        margin: 30px auto;
+        min-width: 300px;
+        padding: 10px;
+        border-radius: 2px;
+        border: none;
+        transition: all 0.5s ease 0s;
+      }
+      
+      .submit {
+        width: 200px;
+        color: white;
+        background-color: #0F3B57;
+        font-size: 20px;
+      }
+      
+      .submit:hover {
+        box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+        transform: translateY(-3px);
+        width: 300px;
+        border-top: 5px solid #0F3B57;
+        border-radius: 0%;
+      }
+      
+      @keyframes bounce {
+        0% {
+          tranform: translate(0, 4px);
+        }
+        50% {
+          transform: translate(0, 8px);
+        }
+      } 
+}
+@media screen and (min-width:1024px) {
+#title-Tag-Line {
+    font-size: 20px;
+  }
+
+  .Formcontainer{
+    height:500px;
+    display:flex;
+    margin-bottom:250px;
+  }
+  
+  /* form animation starts */
+  .form {
+    background: rgb(207, 201, 153);
+    box-shadow: 0 30px 60px 0 rgba(252, 252, 252, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0F3B57;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title_form{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+    color:#797171;
+  }
+  .secondaryTitle{
+    color: #797171;
+  }
+  
+  .name {
+    background-color: #dddcb9;
+    color: white;
+  }
+  .name:hover {
+    border-bottom: 5px solid #0F3B57;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+
+  .house {
+    background-color: #dddcb9;
+    color: white;
+  }
+  .house:hover {
+    border-bottom: 5px solid #0F3B57;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #dddcb9;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0F3B57;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #dddcb9;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #0F3B57;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #0F3B57;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0F3B57;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+}

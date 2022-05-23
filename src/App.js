@@ -1,10 +1,12 @@
 import "./App.css";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 import Characters from "./components/Characters";
 import Footer from "./components/Footer";
-import History from "./components/History/history";
-import Quiz from "./components/Quiz/quiz.js";
+import Form from "./components/Form";
+// import History from "./components/History/history";
+// import Quiz from "./components/Quiz/quiz.js";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -41,7 +43,7 @@ function App() {
       </BrowserRouter> */}
       
       <Header/>
-
+      <Hero/>
       <span> <p>Type a Character's Name here  :</p> 
         <input
         type="text"
@@ -51,6 +53,7 @@ function App() {
         }}
       /> </span>
       {data !== null ? <Characters data={data} /> : null}
+      <Form/>
       <Footer/>
     </div>
   );
