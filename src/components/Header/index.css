@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+/*portable*/
+@media screen and (min-width:576px) {
+  .HeroContainer{
+    width: 100%;
+    height: 450px;
+    /* background-color: red; */
+    background-image: url("../../assets/7011backdropscale1280xauto.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    
+} 
+
+.barremenu {
+  display:inline-flex;
+  position:relative;
+  list-style-type:none;
+  background-size:100vh;
+  height:215px;
+  text-align:center;
+  margin:20px;
+  right:20px;
+  
+   }   
+  
+  .HPTitle{
+
+    color:white;
+    display: inline-flex;
+    font-size:50px;
+    padding:20px;
+    font-family: 'Metal Mania', cursive;
+    text-shadow: #C08E5A 1px 0 20px;
+} 
+
+.text{
+  display:inline-flex;
+  color:white;
+  font-size: 20px;
+  font-family: 'Metal Mania', cursive;
+  text-shadow: #C08E5A 1px 0 20px;
+}
+  
+  .button {
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    margin: 5px;
+    padding: 8px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .HeroContainer{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    background-image: url("../../assets/7011backdropscale1280xauto.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    
+}
+
+}
+      @media screen and (min-width:768px) {
+        .button {
+          background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+        margin: 8px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        text-decoration: none;
+        }
+
+  
+          
+      }
+    
+    
+      
+
+    @media screen and (min-width:1024px) {
+      .HPTitle{
+      
+          color:white;
+          display: inline-flex;
+          font-size:70px;
+          padding:20px;
+          font-family: 'Metal Mania', cursive;
+          text-shadow: #C08E5A 1px 0 20px;
+      } 
+      
+      
+      .text{
+          display:inline-flex;
+          color:white;
+          font-size: 30px;
+          font-family: 'Metal Mania', cursive;
+          text-shadow: #C08E5A 1px 0 20px;
+      }
+      
+      .HeroContainer{
+          width: 100%;
+          height: 550px;
+          /* background-color: red; */
+          background-image: url("../../assets/7011backdropscale1280xauto.webp");
+          background-size: cover;
+          background-position: center;
+          display: flex;
+          flex-direction:column;
+          align-items:center;
+          justify-content:flex-start;
+          
+      }
+       
+       
+       .barremenu {
+          display:inline-flex;
+          position:relative;
+          list-style-type:none;
+          background-size:100vh;
+          height:325px;
+          text-align:center;
+          margin:20px;
+          right:20px;
+          
+           }        
+      
+               
+           .button {
+              background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+              margin: 10px;
+              padding: 15px 45px;
+              text-align: center;
+              text-transform: uppercase;
+              transition: 0.5s;
+              background-size: 200% auto;
+              color: white;            
+              box-shadow: 0 0 20px #eee;
+              border-radius: 10px;
+              display: block;
+              text-decoration: none;
+              
+            }
+      
+            .button:hover {
+              background-position: right center; /* change the direction of the change here */
+              color: #fff;
+              text-decoration: none;
+            }
+          }

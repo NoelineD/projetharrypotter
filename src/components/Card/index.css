@@ -1,4 +1,48 @@
+@media screen and (min-width:576px) {
+    .card {
+        display:flex;
+        align-items:center;
+        height: 200px;
+        width: 200px;
+        background-color: #0F3B57;
+        margin:20px;
+        position: relative;
+        flex-shrink: 0;
+        flex-grow: 0;
+        background:linear-gradient(rgba(60, 205, 60, 0.6),rgba(255, 179, 0, 0.7),rgb(255, 0, 0,0.7));
+        border-radius: 50%;
+    
+    }
+    
+    
+    .card > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        opacity:1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+       
+    }
+    
+    .card > img:hover{
+        background: #0f571d;
+        opacity: .5;
+    }
+    
+    .legend {
+        position: absolute;
+        color: white;
+        background-color: #0F3B57;
+        padding: 10px;
+        font-size: 15px;
+        bottom:25px;
+        left:0;
+    }
+}
 
+@media screen and (min-width:1024px) {
 .card {
     display:flex;
     align-items:center;
@@ -9,8 +53,10 @@
     position: relative;
     flex-shrink: 0;
     flex-grow: 0;
-}
+    background:linear-gradient(rgba(60, 205, 60, 0.6),rgba(255, 179, 0, 0.7),rgb(255, 0, 0,0.7));
+    border-radius: 50%;
 
+}
 
 
 .card > img {
@@ -18,7 +64,15 @@
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    opacity:1;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
    
+}
+
+.card > img:hover{
+    background: #0f571d;
+    opacity: .5;
 }
 
 .legend {
@@ -29,4 +83,5 @@
     font-size: 20px;
     bottom:70px;
     left:0;
+}
 }

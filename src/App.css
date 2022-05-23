@@ -1,0 +1,66 @@
+.App{
+    background-color:#0F3B57 ;
+}
+
+@media screen and (min-width:576px) {
+    span{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        /* position:absolute; */
+        gap:10px;
+        position:absolute;
+    }
+    p{
+        display:inline-flex;
+        position:relative;
+        background-color:rgb(227, 217, 150);
+        height:25px;
+        font-size:14px;
+    }
+    input{
+        display:inline-flex;
+        width:30vh;
+        height:20px;
+        background-color:rgb(227, 217, 150);
+        position: relative;
+        font-size:14px;
+        border-radius:2px;
+    } 
+
+
+}
+
+@media screen and (min-width:768px) {
+
+
+}
+
+
+@media screen and (min-width:1024px) {
+span{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    gap:10px;
+    
+}
+p{
+    display:inline-flex;
+    position:relative;
+    background-color:rgb(227, 217, 150);
+    height:25px;
+    font-size:17px;
+}
+input{
+    display:inline-flex;
+    width:50vh;
+    height:20px;
+    background-color:rgb(227, 217, 150);
+    position: relative;
+    font-size:17px;
+    border-radius:2px;
+} 
+}
+

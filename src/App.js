@@ -1,7 +1,10 @@
 import "./App.css";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
 import Characters from "./components/Characters";
+import Footer from "./components/Footer";
+import History from "./components/History/history";
+import Quiz from "./components/Quiz/quiz.js";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -14,7 +17,7 @@ function App() {
       const response = await axios.get(
         "https://hp-api.herokuapp.com/api/characters"
       );
-      const modifiedData = response.data.splice(0, 100).filter((el) => {
+      const modifiedData = response.data.splice(0, 30).filter((el) => {
         return el.name.includes(search);
       });
       setData(modifiedData);
@@ -25,16 +28,30 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <input
+
+
+      {/* <Header />
+      
+<BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />} />
+        <Route path="History" element={<History />} />
+        <Route path="Quiz" element={<Quiz/>}></Route>
+      </Routes>
+      </BrowserRouter> */}
+      
+      <Header/>
+
+      <span> <p>Type a Character's Name here  :</p> 
+        <input
         type="text"
         value={search}
         onChange={(event) => {
           setSearch(event.target.value);
         }}
-      />
+      /> </span>
       {data !== null ? <Characters data={data} /> : null}
+      <Footer/>
     </div>
   );
 }
