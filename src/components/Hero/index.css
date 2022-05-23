@@ -1,4 +1,4 @@
-@media screen and (min-width:575px) {
+@media screen and (min-width:555px) {
 
     .Herocontainer{
         display: flex;
@@ -13,7 +13,7 @@
             color:white;
             font-size: 15px;
             font-family: serif;
-            text-shadow: #C08E5A 1px 0 20px;
+            text-shadow: #C08E5A 2px 0 20px;
 }
 }
 @media screen and (min-width:1024px) {

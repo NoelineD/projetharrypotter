@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 /*portable*/
-@media screen and (min-width:576px) {
+@media screen and (min-width:555px) {
   .HeaderContainer{
     width: 100%;
     height: 450px;
